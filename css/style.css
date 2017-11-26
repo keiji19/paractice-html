@@ -98,36 +98,43 @@ section {
 }
 
 .content {
-	width:960px;
-	margin:0 auto;
+	width: 960px;
+	margin: 0 auto;
 }
 
 footer {
 	text-align: center;
 	color: #ffffff;
-	padding:20px 0;
-	background-color:#767671;
+	padding: 20px 0;
+	background-color: #767671;
 }
 
 footer small {
-	font-size:12px;
+	font-size: 12px;
+}
+
+#index #wrap {
+	background-color: transparent;
+	margin-top: 0;
+	padding: 0;
 }
 
 #index h1 {
 	font-size: 100px;
 	line-height: 1;
-	color:#009cd3;
-	font-family:'Bitter', serif;
-	margin-bottom:50px;
+	color: #009cd3;
+	font-family: 'Bitter', serif;
+	margin-bottom: 50px;
+	border: none;
 }
 
 #index .content {
-	margin-top:50px;
+	margin-top: 50px;
 }
 
 #index p {
-	font-size:16px;
-	color:#ffffff;
+	font-size: 16px;
+	color: #ffffff;
 }
 
 .btn a {
@@ -154,6 +161,7 @@ footer small {
 	width:960px;
 	margin:150px auto 0 auto;
 	text-align: left;
+	background-color: transparent;
 }
 
 #index {
