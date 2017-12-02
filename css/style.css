@@ -236,7 +236,7 @@ table {
 	float:left;
 }
 
-.main .manegement img,
+.main .photogragh img,
 .main .video img{
 	width:700px;
 }
@@ -264,3 +264,36 @@ a img:hover {
 .sidebar ul a {
 	color: #333333;
 }
+
+#photogragh {
+	background-image:url(../img/bg-photogragh.jpg); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment:fixed;
+	background-size:100% auto;
+}
+
+#photogragh .photogragh-list li {
+	float:left;
+	list-style: none;
+	margin:0 20px 15px 0;
+}
+
+#photogragh .photogragh-list li:nth-child(3n) {
+	margin-right:0;
+}
+
+#video {
+	background-image:url(../img/bg-video.jpg); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment:fixed;
+	background-size:100% auto;
+}
+
+
+
+
+
+
+
